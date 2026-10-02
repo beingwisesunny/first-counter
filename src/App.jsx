@@ -4,6 +4,10 @@ import { useState } from 'react'
 const App = () => {
   const [count, setCount] = useState(0)
 
+
+
+  // ye function counter inncrease karne ke liye hai 
+
  const increaseCounter = ()=> {
   if(count ==10){
     return;
