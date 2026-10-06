@@ -18,7 +18,7 @@ const App = () => {
  };
 
  const decreaseCounter = ()=> {
-  if(count ==0){
+  if(count == -10){
     return;
   }else{
     setCount(count-1)
